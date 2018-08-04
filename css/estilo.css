@@ -40,6 +40,9 @@ body{ margin: 0;
 	border: none;
 	background:  #fd324e;
 }
+.contenedor .button a{
+	color: white;
+}
 .portada button{
 	margin: 70px;
 }
@@ -55,6 +58,10 @@ body{ margin: 0;
 .menu li{
 	display: inline-block;
 	margin-left: 30px;
+}
+.menu li a{
+	color: white;
+	text-decoration: none;
 }
 .contenedor{
 	width: 800px;
@@ -157,4 +164,24 @@ align-items: flex-start;
 .col2 .button{
 	padding: 7px;
 	margin-top: 10px;
+}
+.tabla{
+	margin: 40px 0;
+}
+table{
+	width: 100%;
+
+}
+th{
+	background: #273b47;
+	color: white;
+	padding: 10px 20px;
+	text-align: left;
+}
+td{
+	padding: 20px;
+}
+table, th, td{
+	border: 1px solid #273b47;
+	border-collapse: collapse;
 }
